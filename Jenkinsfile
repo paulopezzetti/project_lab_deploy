@@ -1,6 +1,7 @@
 pipeline {
   environment {
     registry = "paulopezzetti/trade"   
+    registryCredential = "dockerhub"
     container_name = "trade"
     dockerImage = ''
   }
