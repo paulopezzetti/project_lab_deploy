@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Git Clone') {
       steps {
-        git 'https://github.com/matheusmaais/testegit.git'
+        git 'https://github.com/paulopezzetti/trade.git'
       }
     }
     
