@@ -3,7 +3,7 @@ pipeline {
     registry = "paulopezzetti/trade"   
     registryCredential = "dockerhub"
     container_name = "trade"
-    dockerImage = 'paulopezzetti/trade'
+    dockerImage = ''
   }
   agent any
   stages {
